@@ -20,4 +20,5 @@ Little bit of algorithms fun
 5. Trees
 	1. 1448.Count-Good-Nodes-in-Binary-Tree
 
-
+6. Binary Search
+	1. 153.Find-Minimum-in-Rotated-Sorted-Array
