@@ -16,9 +16,11 @@ Little bit of algorithms fun
 	2. 206.Reverse-Linked-List
 	3. 21.Merge-Two-Sorted-Lists
 
-
 5. Trees
 	1. 1448.Count-Good-Nodes-in-Binary-Tree
 
 6. Binary Search
 	1. 153.Find-Minimum-in-Rotated-Sorted-Array
+
+7. Sliding Window
+	1. 121.Best-Time-to-Buy-and-Sell-Stock
