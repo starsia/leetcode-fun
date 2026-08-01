@@ -21,6 +21,7 @@ Little bit of algorithms fun
 
 6. Binary Search
 	1. 153.Find-Minimum-in-Rotated-Sorted-Array
+	2. 33.Search-in-Rotated-Sorted-Array
 
 7. Sliding Window
 	1. 121.Best-Time-to-Buy-and-Sell-Stock
