@@ -8,8 +8,8 @@ class Solution:
             return 0
 
         rows, cols = len(grid), len(grid[0])
-        visited = set()
-
+	# we make an improvement by removing the 'visited' set and instead
+	# modify the grid in-place to save the space complexity from O(island size) to O(1)
         def bfs(row, col) -> int:
             queue = collections.deque()
             
@@ -24,8 +24,8 @@ class Solution:
                     row, col = dr + r, dc + c
 
 
-                    if row in range(rows) and col in range(cols) and (row, col) not in visited and grid[row][col] == 1:
-                        visited.add((row, col))
+                    if row in range(rows) and col in range(cols) and grid[row][col] == 1:
+                        grid[row][col] = 0
                         possible_largest += 1
                         queue.append((row, col))
                         island.append((row, col))
@@ -37,8 +37,8 @@ class Solution:
 
         for row in range(rows):
             for col in range(cols):
-                if grid[row][col] == 1 and (row, col) not in visited:
-                    visited.add((row, col))
+                if grid[row][col] == 1:
+                    grid[row][col] = 0
 
                     max_area = max(max_area, bfs(row, col))
 
