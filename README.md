@@ -27,6 +27,7 @@ Little bit of algorithms fun
 7. Sliding Window
 	1. 121.Best-Time-to-Buy-and-Sell-Stock
 **	2. 424.Longest-Repeating-Character-Replacement**
+	3. 3. Longest-Substring-Without-Repeating-Characters
 
 8. Graphs
 	1. 133.Clone-Graph
