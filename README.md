@@ -35,9 +35,7 @@ Little bit of algorithms fun
 	2. 695.Max-Area-of-Island
 	3. 994.Rotting-Oranges
 	4. 200.Number-of-Islands
-
 ## Updated Directory
-```
 .
 ├── arrays-and-hashing
 │   └── 15.3Sum
@@ -104,4 +102,3 @@ Little bit of algorithms fun
 └── update-directory
 
 33 directories, 31 files
-```

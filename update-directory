@@ -1,7 +1,14 @@
 #!/bin/bash 
 
+line_num=$(grep -n "## Updated Directory" README.md | cut -d: -f1)
+
+
+front=$(head -n $((line_num - 1)) README.md)
+
 output="$(tree .)"
 
-$(echo "$output" >> README.md)
+all="$front"$'\n'"## Updated Directory"$'\n'"$output"
+
+echo "$all" > README.md
 
 echo 'done'
