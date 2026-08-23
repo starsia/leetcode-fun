@@ -1,0 +1,7 @@
+#!/bin/bash 
+
+output="$(tree .)"
+
+$(echo "$output" >> README.md)
+
+echo 'done'
