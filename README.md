@@ -101,6 +101,9 @@ Little bit of algorithms fun
 ├── trees
 │   └── 1448.Count-Good-Nodes-in-Binary-Tree
 │       └── 1448.count-good-nodes-in-binary-tree.java
+├── tries
+│   └── 208.Implement-Trie-(Prefix-Tree)
+│       └── implement-trie-prefix-tree.py
 └── update-directory
 
-34 directories, 32 files
+36 directories, 33 files
