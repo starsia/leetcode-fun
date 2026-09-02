@@ -38,6 +38,8 @@ Little bit of algorithms fun
 ## Updated Directory
 .
 ├── arrays-and-hashing
+│   ├── 1.Two-Sum
+│   │   └── two-sum.py
 │   └── 15.3Sum
 │       └── 3sum.py
 ├── backtracking
@@ -108,4 +110,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-37 directories, 34 files
+38 directories, 35 files
