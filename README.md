@@ -72,6 +72,9 @@ Little bit of algorithms fun
 │   │   └── kth-largest-element-in-an-array.java
 │   └── 703.Kth-Largest-Element-in-a-Stream
 │       └── kth-largest-elem-in-a-stream.java
+├── intervals
+│   └── 57.Insert-Interval
+│       └── insert-interval.py
 ├── linked-list
 │   ├── 141.Linked-List-Cycle
 │   │   └── 141.linked-list-cycle.py
@@ -112,4 +115,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-39 directories, 36 files
+41 directories, 37 files
