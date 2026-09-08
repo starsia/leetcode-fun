@@ -75,6 +75,8 @@ Little bit of algorithms fun
 │   └── 973.K-Closest-Points-to-Origin
 │       └── k-closest-points-to-origin.py
 ├── intervals
+│   ├── 435.Non-Overlapping-Intervals
+│   │   └── non-overlapping-intervals.py
 │   ├── 56.Merge-Intervals
 │   │   └── merge-intervals.py
 │   └── 57.Insert-Interval
@@ -119,4 +121,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-43 directories, 39 files
+44 directories, 40 files

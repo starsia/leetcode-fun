@@ -1,22 +1,22 @@
 class Solution:
     def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        output = []
+        intervals.sort()
+        start, end = intervals[0]
 
-        intervals.sort() 
-        queue = collections.deque(intervals)
-        print(queue) 
-        output = [] 
-        start, end = queue.popleft()
-
-        while queue:
-            front, back = queue.popleft()
-            if end < front:
+        for i in range(1, len(intervals)):
+            if end >= intervals[i][0]:
+                # overlapping
+                end = max(end, intervals[i][1])
+            else:
+                # not overlapping
                 output.append([start, end])
-                start, end = front, back
-                continue
-            # if front <= start < back:
-            else: 
-                end = max(end, back)
+
+                start, end = intervals[i][0],  intervals[i][1]
 
         output.append([start, end])
-    
+
+
+
+
         return output
