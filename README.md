@@ -68,8 +68,10 @@ Little bit of algorithms fun
 │   ├── 994.Rotting-Oranges
 │   └── rotting-oranges.py
 ├── greedy
-│   └── 53.Maximum-Subarray
-│       └── maximum-subarray.py
+│   ├── 53.Maximum-Subarray
+│   │   └── maximum-subarray.py
+│   └── 55.Jump-Game
+│       └── jump-game.py
 ├── heap-or-priority-queue
 │   ├── 215.Kth-Largest-Element-In-An-Array
 │   │   └── kth-largest-element-in-an-array.java
@@ -124,4 +126,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-46 directories, 41 files
+47 directories, 42 files
