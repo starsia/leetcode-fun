@@ -12,3 +12,26 @@ class Solution:
                 curr_range = max_range
 
         return output
+
+# Alternative Solution
+"""
+class Solution:
+    def jump(self, nums: List[int]) -> int:
+        jumps = 0
+        near = 0
+        far = 0
+
+        while far < len(nums) - 1:
+            farthest = 0
+
+            for i in range(near, far + 1):
+                farthest = max(farthest, nums[i] + i)
+
+            jumps += 1
+            near = far + 1
+            far = farthest
+
+
+        return jumps
+
+"""

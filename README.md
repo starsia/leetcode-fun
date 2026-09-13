@@ -68,6 +68,8 @@ Little bit of algorithms fun
 │   ├── 994.Rotting-Oranges
 │   └── rotting-oranges.py
 ├── greedy
+│   ├── 45.Jump-Game-II
+│   │   └── jump-game-ii.py
 │   ├── 53.Maximum-Subarray
 │   │   └── maximum-subarray.py
 │   └── 55.Jump-Game
@@ -126,4 +128,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-47 directories, 42 files
+48 directories, 43 files
