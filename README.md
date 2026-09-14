@@ -37,6 +37,9 @@ Little bit of algorithms fun
 	4. 200.Number-of-Islands
 ## Updated Directory
 .
+├── 1D-DP
+│   └── 70.Climbing-Stairs
+│       └── climbing-stairs.py
 ├── arrays-and-hashing
 │   ├── 1.Two-Sum
 │   │   └── two-sum.py
@@ -130,4 +133,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-49 directories, 44 files
+51 directories, 45 files
