@@ -38,8 +38,10 @@ Little bit of algorithms fun
 ## Updated Directory
 .
 ├── 1D-DP
-│   └── 70.Climbing-Stairs
-│       └── climbing-stairs.py
+│   ├── 70.Climbing-Stairs
+│   │   └── climbing-stairs.py
+│   └── 746.Min-Cost-Climbing-Stairs
+│       └── min-cost-climbing-stairs.py
 ├── arrays-and-hashing
 │   ├── 1.Two-Sum
 │   │   └── two-sum.py
@@ -133,4 +135,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-51 directories, 45 files
+52 directories, 46 files
