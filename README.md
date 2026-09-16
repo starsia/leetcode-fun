@@ -38,6 +38,8 @@ Little bit of algorithms fun
 ## Updated Directory
 .
 ├── 1D-DP
+│   ├── 198.House-Robber
+│   │   └── house-robber.py
 │   ├── 70.Climbing-Stairs
 │   │   └── climbing-stairs.py
 │   └── 746.Min-Cost-Climbing-Stairs
@@ -135,4 +137,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-52 directories, 46 files
+53 directories, 47 files
