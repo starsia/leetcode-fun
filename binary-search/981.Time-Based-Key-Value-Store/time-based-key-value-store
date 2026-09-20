@@ -1,0 +1,41 @@
+def __init__(self):
+    self.dict = {}
+
+def set(self, key: str, value: str, timestamp: int) -> None:
+    if key in self.dict:
+        temp = self.dict[key]
+        temp.append([value, timestamp])
+        self.dict[key] = temp
+        
+    else: 
+        self.dict[key] = [[value, timestamp]]
+
+def get(self, key: str, timestamp: int) -> str:
+    if key not in self.dict:
+        return ""
+        
+    temp = self.dict[key]
+    
+    left = 0
+    right = len(temp) - 1
+    
+    while left <= right:
+        middle = (left + right)//2
+            
+        if temp[middle][1] < timestamp:
+            left = middle + 1
+        elif temp[middle][1] > timestamp:
+            right = middle - 1 
+            
+        elif temp[middle][1] == timestamp:
+            return temp[middle][0]
+        
+    if right >= 0: 
+        return temp[right][0]
+
+    return ""
+
+Your TimeMap object will be instantiated and called as such:
+obj = TimeMap()
+obj.set(key,value,timestamp)
+param_2 = obj.get(key,timestamp)
