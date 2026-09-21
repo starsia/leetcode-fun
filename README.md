@@ -70,6 +70,8 @@ Little bit of algorithms fun
 │   │   └── clone-graph.py
 │   ├── 200.Number-of-Islands
 │   │   └── number-of-islands.py
+│   ├── 207.Course-Schedule
+│   │   └── course-schedule.py
 │   ├── 417.Pacific-Atlantic-Water-Flow
 │   │   └── pacific-atlantic-water-flow.py
 │   ├── 695.Max-Area-of-Island
@@ -139,4 +141,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-54 directories, 48 files
+55 directories, 49 files
