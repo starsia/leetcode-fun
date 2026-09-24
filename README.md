@@ -87,8 +87,10 @@ Little bit of algorithms fun
 │   │   └── jump-game-ii.py
 │   ├── 53.Maximum-Subarray
 │   │   └── maximum-subarray.py
-│   └── 55.Jump-Game
-│       └── jump-game.py
+│   ├── 55.Jump-Game
+│   │   └── jump-game.py
+│   └── 846.Hand-of-Straights
+│       └── hand-of-straights
 ├── heap-or-priority-queue
 │   ├── 215.Kth-Largest-Element-In-An-Array
 │   │   └── kth-largest-element-in-an-array.java
@@ -143,4 +145,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-56 directories, 50 files
+57 directories, 51 files
