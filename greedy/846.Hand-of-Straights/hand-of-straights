@@ -1,0 +1,27 @@
+class Solution:
+    def helper(self, hand, groupSize, i, n):
+        count = 1
+        desired_value = hand[i] + 1
+        hand[i] = -1
+        i += 1
+        while count < groupSize and i < n:
+            if hand[i] == desired_value:
+                desired_value = hand[i] + 1
+                count += 1
+                hand[i] = -1
+            i += 1
+
+        return count == groupSize
+
+    def isNStraightHand(self, hand, groupSize):
+        hand.sort()
+        n = len(hand)
+        if n % groupSize != 0:
+            return False
+
+        for i in range(n):
+            if hand[i] >= 0:
+                if not self.helper(hand, groupSize, i, n):
+                    return False
+
+        return True
