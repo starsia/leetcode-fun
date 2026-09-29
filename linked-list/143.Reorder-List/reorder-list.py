@@ -4,24 +4,56 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # time complexity here is O(n) for traversing the linkedlist once
-        # space complexity is O(1) for only storing 3 variables and reversing in-place
+    def reorderList(self, head: Optional[ListNode]) -> None:
+        """
+        Do not return anything, modify head in-place instead.
+        """
+        slow = head 
+        fast = head
+        before_middle = head
 
-        if head is None:
-            return head
+        while fast and fast.next:
+            before_middle = slow
+            slow = slow.next
+            fast = fast.next.next
 
-        # prev here is actually the last element in the linkedlist we will create
-        prev = None
+        def reverseList(link: ListNode | Node) -> ListNode | None:
+            if not link:
+                return None
+                
+            prev = None
 
-        temp = head
-        while temp:
-            originalNext = temp.next # this stores the original next element
-            temp.next = prev # this assigns what came before to what comes after. 
+            temp = link # we do this so we can preserve the pointer to the link, as temp will point
+            # elsewhere after this
+            while temp:
+                originalNext = temp.next
+                temp.next = prev
 
-            prev = temp # save the current to be used in the next loop
-            temp = originalNext # we keep the loop going in the original order
+                prev = temp
+                temp = originalNext
 
-        return prev # return prev and not temp because temp is currently None (it's actually the last element)
-            
+            return prev
+
+
+        reversed = reverseList(slow)
+        print(reversed)
+        output = head
+
+        while reversed:
+            temp_front = head.next
+
+            if not reversed.next:
+                head.next = temp_front
+                break
+
+            temp_back = reversed.next
+
+            head.next = reversed
+            reversed.next = temp_front
+
+            reversed = temp_back
+            head = temp_front
+
+        return output
+
 
