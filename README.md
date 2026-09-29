@@ -112,6 +112,8 @@ Little bit of algorithms fun
 │   │   └── 141.linked-list-cycle.py
 │   ├── 143.Reorder-List
 │   │   └── reorder-list.py
+│   ├── 19.Remove-Nth-Node-From-End-of-List
+│   │   └── remove-nth-node-from-end-of-list.py
 │   ├── 206.Reverse-Linked-List
 │   │   ├── reverse-linked-list.go
 │   │   ├── reverse-linked-list.java
@@ -149,4 +151,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-59 directories, 53 files
+60 directories, 54 files
