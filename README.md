@@ -116,13 +116,17 @@ Little bit of algorithms fun
 │   │   └── reorder-list.py
 │   ├── 19.Remove-Nth-Node-From-End-of-List
 │   │   └── remove-nth-node-from-end-of-list.py
+│   ├── 2.Add-Two-Numbers
+│   │   └── add-two-numbers.py
 │   ├── 206.Reverse-Linked-List
 │   │   ├── reverse-linked-list.go
 │   │   ├── reverse-linked-list.java
 │   │   └── reverse-linked-list.py
-│   └── 21.Merge-Two-Sorted-Lists
-│       ├── merge-two-sorted-lists.java
-│       └── merge-two-sorted-lists.py
+│   ├── 21.Merge-Two-Sorted-Lists
+│   │   ├── merge-two-sorted-lists.java
+│   │   └── merge-two-sorted-lists.py
+│   └── 287.Find-the-Duplicate-Number
+│       └── find-the-duplicate-number.py
 ├── README.md
 ├── sliding-window
 │   ├── 121.Best-Time-to-Buy-and-Sell-Stock
@@ -153,4 +157,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-61 directories, 55 files
+63 directories, 57 files
