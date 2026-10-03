@@ -114,6 +114,8 @@ Little bit of algorithms fun
 │   │   └── 141.linked-list-cycle.py
 │   ├── 143.Reorder-List
 │   │   └── reorder-list.py
+│   ├── 146.LRU-Cache
+│   │   └── lru-cache.py
 │   ├── 19.Remove-Nth-Node-From-End-of-List
 │   │   └── remove-nth-node-from-end-of-list.py
 │   ├── 2.Add-Two-Numbers
@@ -157,4 +159,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-63 directories, 57 files
+64 directories, 58 files
