@@ -46,8 +46,10 @@ Little bit of algorithms fun
 │   │   └── longest-palindromic-substring.py
 │   ├── 70.Climbing-Stairs
 │   │   └── climbing-stairs.py
-│   └── 746.Min-Cost-Climbing-Stairs
-│       └── min-cost-climbing-stairs.py
+│   ├── 746.Min-Cost-Climbing-Stairs
+│   │   └── min-cost-climbing-stairs.py
+│   └── 91.Decode-Ways
+│       └── decode-ways.java
 ├── arrays-and-hashing
 │   ├── 1.Two-Sum
 │   │   └── two-sum.py
@@ -165,4 +167,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-67 directories, 61 files
+68 directories, 62 files
