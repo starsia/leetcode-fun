@@ -1,27 +1,28 @@
 class Solution:
     def coinChange(self, coins: list[int], amount: int) -> int:
-        coins.sort()
-        
-        point = len(coins) - 1
-        output = 0 
-        
-        if point == -1:
-            return -1
-        
-        while point >=0:
-            if point == 0 and amount % coins[point] != 0 :
+        memo = {}
+        def helper(rem: int):
+            if rem < 0:
                 return -1
-                
-            remainder = amount // coins[point] 
-            
-            output += remainder
-            amount -= remainder * coins[point]
-            point -= 1
-            
-            
-                
-            print(output, amount)
+
+            # there are 0 coins that can form $0
+            if rem == 0:
+                return 0
+
+            if rem in memo:
+                return memo[rem]
+
+            min_count = float('inf')
+
+            for coin in coins:
+                res = helper(rem - coin)
+
+                if res != -1:
+                    min_count = min(min_count, 1 + res)
+
+            memo[rem] = min_count if min_count != float('inf') else -1
+
+            return memo[rem]
+
+        return helper(amount)
         
-                
-        return output
-                
