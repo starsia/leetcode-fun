@@ -38,10 +38,14 @@ Little bit of algorithms fun
 ## Updated Directory
 .
 ├── 1D-DP
+│   ├── 152.Maximum-Product-Subarray
+│   │   └── maximum-product-subarray.py
 │   ├── 198.House-Robber
 │   │   └── house-robber.py
 │   ├── 213.House-Robber-II
 │   │   └── house-robber.py
+│   ├── 322.Coin-Change
+│   │   └── coin-change.py
 │   ├── 5.Longest-Palindromic-Substring
 │   │   └── longest-palindromic-substring.py
 │   ├── 70.Climbing-Stairs
@@ -167,4 +171,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-68 directories, 62 files
+70 directories, 64 files
