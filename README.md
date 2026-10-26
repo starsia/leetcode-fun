@@ -38,6 +38,8 @@ Little bit of algorithms fun
 ## Updated Directory
 .
 ├── 1D-DP
+│   ├── 139.Word-Break
+│   │   └── word-break.py
 │   ├── 152.Maximum-Product-Subarray
 │   │   └── maximum-product-subarray.py
 │   ├── 198.House-Robber
@@ -171,4 +173,4 @@ Little bit of algorithms fun
 │       └── design-add-and-search-words-data-structure.py
 └── update-directory
 
-70 directories, 64 files
+71 directories, 65 files
