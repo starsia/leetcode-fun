@@ -171,6 +171,9 @@ Little bit of algorithms fun
 │   │   └── implement-trie-prefix-tree.py
 │   └── 211.Design-Add-and-Search-Words-Data-Structure
 │       └── design-add-and-search-words-data-structure.py
+├── two-pointers
+│   └── 42.Trapping-Rain-Water
+│       └── trapping-rain-water.py
 └── update-directory
 
-71 directories, 65 files
+73 directories, 66 files
