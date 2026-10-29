@@ -154,8 +154,10 @@ Little bit of algorithms fun
 │   │   └── longest-repeating-character-replacement.py
 │   ├── 567.Permutation-in-String
 │   │   └── permutation-in-string.py
-│   └── 84.Largest-Rectangle-in-Histogram
-│       └── largest-rectangle-in-histogram.py
+│   ├── 76.Minimum-Window-Substring
+│   ├── 84.Largest-Rectangle-in-Histogram
+│   │   └── largest-rectangle-in-histogram.py
+│   └── minimum-window-substring.py
 ├── stack
 │   ├── 150.Evaluate-Reverse-Polish-Notation
 │   │   └── evaluate-reverse-polish-notation.py
@@ -176,4 +178,4 @@ Little bit of algorithms fun
 │       └── trapping-rain-water.py
 └── update-directory
 
-73 directories, 66 files
+74 directories, 67 files
