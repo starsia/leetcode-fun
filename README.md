@@ -73,6 +73,7 @@ Little bit of algorithms fun
 │   │   └── find-minimum-in-sorted-array.py
 │   ├── 33.Search-in-Rotated-Sorted-Array
 │   │   └── search-in-rotated-sorted-array.py
+│   ├── 4.Median-of-Two-Sorted-Arrays
 │   └── 981.Time-Based-Key-Value-Store
 │       └── time-based-key-value-store
 ├── graphs
@@ -180,4 +181,4 @@ Little bit of algorithms fun
 │       └── trapping-rain-water.py
 └── update-directory
 
-75 directories, 68 files
+76 directories, 68 files
