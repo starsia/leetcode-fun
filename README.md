@@ -59,8 +59,10 @@ Little bit of algorithms fun
 ├── arrays-and-hashing
 │   ├── 1.Two-Sum
 │   │   └── two-sum.py
-│   └── 15.3Sum
-│       └── 3sum.py
+│   ├── 15.3Sum
+│   │   └── 3sum.py
+│   ├── 49.Group-Anagrams
+│   └── group-anagrams.py
 ├── backtracking
 │   ├── 78.Subsets
 │   │   ├── subsets.java
@@ -181,4 +183,4 @@ Little bit of algorithms fun
 │       └── trapping-rain-water.py
 └── update-directory
 
-76 directories, 68 files
+77 directories, 69 files
