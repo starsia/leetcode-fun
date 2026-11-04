@@ -76,6 +76,8 @@ Little bit of algorithms fun
 │   ├── 33.Search-in-Rotated-Sorted-Array
 │   │   └── search-in-rotated-sorted-array.py
 │   ├── 4.Median-of-Two-Sorted-Arrays
+│   ├── 875.Koko-Eating-Bananas
+│   │   └── koko-eating-bananas.py
 │   └── 981.Time-Based-Key-Value-Store
 │       └── time-based-key-value-store
 ├── graphs
@@ -183,4 +185,4 @@ Little bit of algorithms fun
 │       └── trapping-rain-water.py
 └── update-directory
 
-77 directories, 69 files
+78 directories, 70 files
